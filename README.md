@@ -6,3 +6,4 @@ Technical assignment as part of the Trill Internship frontend developer applicat
 
 Screenshot of final product:
 
+![screenshot](screenshot.jpg)
