@@ -1,0 +1,58 @@
+/**
+ * TRILL INTERNSHIP 2021 APPLICATION:
+ * Frontend Web Development
+ * Chandra Burnham
+ * 1/12/2021
+ *
+ * This app displays images of butterflies on the
+ * page and prints a quote of the day from
+ * https://quotes.rest/qod API.
+ *
+ */
+
+body {
+  margin-left: 85px;
+  margin-right: 85px;
+  margin-top: 64px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 61px;
+  margin-bottom: 22px;
+}
+
+p {
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+
+/*
+Spacing between images is responsive.
+ */
+#container {
+  display: flex;
+  justify-content:space-between;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+#caption {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 25px;
+}
