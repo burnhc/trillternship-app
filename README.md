@@ -1,5 +1,5 @@
 # Trillternship Application
-## Frontend Web Developer
+### Frontend Web Developer
 ### Chandra Burnham
 ### 1/12/2021
 
